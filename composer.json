@@ -1,0 +1,25 @@
+{
+    "name": "stepzerosolutions/zbe-home",
+    "description": "Zend frontend home pages",
+    "license": "BSD-3-Clause",
+    "type": "stepzerosolutions-zbe",
+    "version": "1.0.0",
+    "homepage": "http://stepzero.solutions/",
+    "prefer-stable": true,
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "zendframework/skeleton-application": "*",
+        "stepzerosolutions/zbe-installer":"*",
+        "stepzerosolutions/zbe-core":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZbeHome\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZbeHomeTest\\": "test/"
+        }
+    }
+}
